@@ -1,0 +1,60 @@
+/* Style untuk body dan container */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style untuk form login */
+  .login {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #0894ff;
+  }
+  
+  .login h1 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .login label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .login input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login button {
+    padding: 10px;
+    background-color: #04881c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login button:hover {
+    background-color: #18f50d;
+  }
+  
+  /* Style untuk hasil perhitungan */
+  .hitung {
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
